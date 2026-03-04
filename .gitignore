@@ -97,3 +97,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# My custom folder
+[Aa]ssets/Plugins/SyncRepoTool/
+[Aa]ssets/Plugins/SyncRepoTool.meta
