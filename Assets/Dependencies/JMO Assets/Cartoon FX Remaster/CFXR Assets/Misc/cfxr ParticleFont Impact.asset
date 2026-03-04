@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbf5f8b3f8ff3e49bbbf5495becc6b3, type: 3}
+  m_Name: cfxr ParticleFont Impact
+  m_EditorClassIdentifier: 
+  CharSequence: '!"#$%&''()*+/0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^`{|}~-,._'
+  letterCase: 1
+  CharSprites:
+  - {fileID: -182821644, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -84179279, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -163148609, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -2131667376, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 744639003, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 339112749, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -682804664, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 332366346, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -710494317, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 504523166, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1885460413, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1435074860, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1620052242, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 302234741, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1471593983, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1443589203, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1444798776, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -937003763, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1907212544, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -738655319, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1862436266, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -191148170, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -172637751, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1805754936, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 495910067, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1253786106, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1442060789, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -739855133, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 564211458, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 2141507177, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1418485996, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -175690028, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1159754074, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -666695687, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1741874434, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1408943084, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 966798048, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -597773007, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1696980496, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1544815597, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1032565899, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1707199848, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -26478896, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1065870689, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -305299222, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1492224586, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -207125017, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1367313918, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -2063131137, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -920979194, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 203357717, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 303363723, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 66115295, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1690021438, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1963199256, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1513938370, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -87673714, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -565613932, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -836267964, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1914298771, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1949438427, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1359795288, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1629094548, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -59546361, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -1444896490, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: 1424973311, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -258447183, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  - {fileID: -2084365773, guid: 93c5ed3b623a954439e2cf641e392bbd, type: 3}
+  CharKerningOffsets:
+  - name: '!'
+    pre: -22
+    post: -12
+  - name: '"'
+    pre: 0
+    post: 0
+  - name: '#'
+    pre: 0
+    post: 0
+  - name: $
+    pre: 0
+    post: 0
+  - name: '%'
+    pre: 0
+    post: 0
+  - name: '&'
+    pre: 0
+    post: 0
+  - name: ''''
+    pre: 0
+    post: 0
+  - name: (
+    pre: 0
+    post: 0
+  - name: )
+    pre: 0
+    post: 0
+  - name: '*'
+    pre: 0
+    post: 0
+  - name: +
+    pre: 0
+    post: 0
+  - name: '-'
+    pre: -14
+    post: 0
+  - name: /
+    pre: 0
+    post: 0
+  - name: 0
+    pre: 0
+    post: -4
+  - name: 1
+    pre: -14
+    post: 0
+  - name: 2
+    pre: -5
+    post: 0
+  - name: 3
+    pre: 0
+    post: 5
+  - name: 4
+    pre: -5
+    post: 0
+  - name: 5
+    pre: 0
+    post: 0
+  - name: 6
+    pre: 0
+    post: 0
+  - name: 7
+    pre: 0
+    post: -8
+  - name: 8
+    pre: -4
+    post: 0
+  - name: 9
+    pre: 0
+    post: 0
+  - name: ':'
+    pre: 0
+    post: 0
+  - name: ;
+    pre: 0
+    post: 0
+  - name: <
+    pre: 0
+    post: 0
+  - name: =
+    pre: 0
+    post: 0
+  - name: '>'
+    pre: 0
+    post: 0
+  - name: '?'
+    pre: -6
+    post: 0
+  - name: '@'
+    pre: 12
+    post: -10
+  - name: A
+    pre: -2
+    post: 0
+  - name: B
+    pre: 0
+    post: 5
+  - name: C
+    pre: 0
+    post: -2
+  - name: D
+    pre: 0
+    post: 0
+  - name: E
+    pre: 0
+    post: -8
+  - name: F
+    pre: -6
+    post: -10
+  - name: G
+    pre: 0
+    post: 0
+  - name: H
+    pre: -2
+    post: -4
+  - name: I
+    pre: -20
+    post: -6
+  - name: J
+    pre: 0
+    post: 0
+  - name: K
+    pre: 0
+    post: -8
+  - name: L
+    pre: -8
+    post: 8
+  - name: M
+    pre: 0
+    post: 8
+  - name: N
+    pre: 0
+    post: 0
+  - name: O
+    pre: 0
+    post: 0
+  - name: P
+    pre: 0
+    post: 0
+  - name: Q
+    pre: 0
+    post: 0
+  - name: R
+    pre: 0
+    post: 0
+  - name: S
+    pre: 0
+    post: 0
+  - name: T
+    pre: 0
+    post: -10
+  - name: U
+    pre: 0
+    post: 4
+  - name: V
+    pre: 0
+    post: 0
+  - name: W
+    pre: 16
+    post: -10
+  - name: X
+    pre: 0
+    post: 0
+  - name: Y
+    pre: -2
+    post: -4
+  - name: Z
+    pre: 0
+    post: 0
+  - name: '['
+    pre: 0
+    post: 0
+  - name: \
+    pre: 0
+    post: 0
+  - name: ']'
+    pre: 0
+    post: 0
+  - name: ^
+    pre: 0
+    post: 0
+  - name: '`'
+    pre: 0
+    post: 0
+  - name: '{'
+    pre: 0
+    post: 0
+  - name: '|'
+    pre: 0
+    post: 0
+  - name: '}'
+    pre: 0
+    post: 0
+  - name: ~
+    pre: 0
+    post: 0
+  - name: ','
+    pre: 0
+    post: 0
+  - name: .
+    pre: -35
+    post: 10
+  - name: _
+    pre: 0
+    post: 0
