@@ -1,0 +1,548 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e9eb6de8fc7e44bb756104b2e79eaf, type: 3}
+  m_Name: ItemsDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - name: SMTwinblade
+    index: 0
+    icon: {fileID: 21300000, guid: 9a16587124552a84a9eb2c5014803239, type: 3}
+    prefab: {fileID: 5630214917866333113, guid: 8981bb24cf69d5043941918b3a3036a8,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: DamageType.Slash
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: SMTwinblade_Equip_Socket
+    handSlot: SMTwinblade_Hand_Socket
+    actionsTag: Moveset.TwinBlades
+    movesetTag: Moveset.TwinBlades
+    description: Twinblades radiating energy of the universe.
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 1
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 120
+    scaled:
+    - startScale: 2
+      attributeTag: PrimaryAttribute.Dexterity
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers: []
+  - name: SMHeavyHammer
+    index: 1
+    icon: {fileID: 21300000, guid: 41620f94dc107fe4a8fdc1e1086f8532, type: 3}
+    prefab: {fileID: 8914219773539631201, guid: afbc32da6217a684c8245a4dfbda884e,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 0
+    mainHand: 1
+    weight: 0
+    damageType: DamageType.HugeImpact
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: HeavyHammer_Equip, HeavyHammer_Equip
+    handSlot: HeavyHammer_Hand_Socket
+    actionsTag: Moveset.TwoHandHammer
+    movesetTag: Moveset.TwoHandHammer
+    description: 
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 1
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 210
+    scaled:
+    - startScale: 2
+      attributeTag: PrimaryAttribute.Strenght
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades: []
+    requirements:
+    - requirementFor: 1
+      upgradeName: 
+      itemName: 
+      itemAmmount: 0
+      attributeTag: PrimaryAttribute.Strenght
+      value: 20
+    statsModifiers: []
+    attributeModifiers: []
+  - name: SMAxe
+    index: 2
+    icon: {fileID: 21300000, guid: 467996881e011ec45a490d0228dec0f9, type: 3}
+    prefab: {fileID: 7475097498006731804, guid: 6d6a18b43f8d6dd4dacd4beb46a0150c,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: DamageType.Cut
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: Axe_Equip_Socket_RH, Axe_Equip_Socket_LH
+    handSlot: Axe_Hand_Socket
+    actionsTag: Moveset.OneHandAxe
+    movesetTag: Moveset.OneHandAxe
+    description: 
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 1
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 80
+    scaled:
+    - startScale: 3
+      attributeTag: PrimaryAttribute.Strenght
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades: []
+    requirements:
+    - requirementFor: 1
+      upgradeName: 
+      itemName: 
+      itemAmmount: 0
+      attributeTag: PrimaryAttribute.Strenght
+      value: 5
+    statsModifiers: []
+    attributeModifiers: []
+  - name: SMShield
+    index: 3
+    icon: {fileID: 21300000, guid: 4f475d017bee16845b5acc7aa6c54eef, type: 3}
+    prefab: {fileID: 5647634718484145100, guid: 6c597e4964388fe4a81e8a37e4eddd64,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 2
+    mainHand: 0
+    weight: 0
+    damageType: None
+    itemSlot: ItemSlot.LeftHandWeapon
+    bodySlot: Shield_Equip_Socket,Shield_Equip_Socket
+    handSlot: Shield_Hand_Socket
+    actionsTag: Moveset.ShieldAndWeapon
+    movesetTag: None
+    description: 
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 0
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.PhysicDefence
+      startValue: 10
+    - statTag: ItemStat.MagicDefence
+      startValue: 3
+    scaled:
+    - startScale: 3
+      attributeTag: PrimaryAttribute.Vigor
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades: []
+    requirements:
+    - requirementFor: 1
+      upgradeName: 
+      itemName: 
+      itemAmmount: 0
+      attributeTag: PrimaryAttribute.Strenght
+      value: 5
+    statsModifiers: []
+    attributeModifiers:
+    - attributeType: Attribute.StaminaRegen
+      startValue: 10
+      opType: 0
+      valueType: 0
+  - name: SMKatana
+    index: 4
+    icon: {fileID: 21300000, guid: 9093372f200d19f4a96a57b9c81657e2, type: 3}
+    prefab: {fileID: 2679796393194771105, guid: ea2afe1be6e19134eba4476c21fee79b,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: DamageType.Slash
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: Katana_Equip_Socket_RH,  Katana_Equip_Socket_LH
+    handSlot: Katana_Hand_Socket
+    actionsTag: Moveset.DualSword
+    movesetTag: Moveset.DualSword
+    description: 
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 1
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 80
+    scaled:
+    - startScale: 2
+      attributeTag: PrimaryAttribute.Dexterity
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades:
+    - name: +1
+      index: 0
+      useStatUpgrade: 1
+      statTag: ItemStat.Damage
+      value: 20
+      opType: 0
+      valueType: 0
+      baseOn: 2
+      useScaleUpgrade: 0
+      scaleToAffectIndex: 0
+      newScaleLevel: 1
+      useAttModUpgrade: 0
+      attModToAffectIndex: 0
+      attModNewValue: 0
+      useStatModUpgrade: 0
+      statToAffectIndex: 0
+      statModNewValue: 0
+    - name: +2
+      index: 1
+      useStatUpgrade: 1
+      statTag: ItemStat.Damage
+      value: 60
+      opType: 0
+      valueType: 0
+      baseOn: 2
+      useScaleUpgrade: 1
+      scaleToAffectIndex: 0
+      newScaleLevel: 1
+      useAttModUpgrade: 0
+      attModToAffectIndex: 0
+      attModNewValue: 0
+      useStatModUpgrade: 0
+      statToAffectIndex: 0
+      statModNewValue: 0
+    requirements:
+    - requirementFor: 1
+      upgradeName: 
+      itemName: 
+      itemAmmount: 0
+      attributeTag: PrimaryAttribute.Dexterity
+      value: 10
+    statsModifiers: []
+    attributeModifiers: []
+  - name: Health Potion
+    index: 5
+    icon: {fileID: 21300000, guid: 84a3a0d918a0911469b5ee65ae0b1b12, type: 3}
+    prefab: {fileID: 0}
+    type: 7
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Consumable
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: "Healing potion created with leaves and sap of the tree of life.\r"
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 1
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers:
+    - statType: Stats.Health
+      startValue: 200
+      opType: 0
+      valueType: 0
+      valueTo: 1
+      baseOn: 0
+    attributeModifiers: []
+  - name: SMReverseSword
+    index: 6
+    icon: {fileID: 21300000, guid: f4d4b722a28542941bc5aad2b4ec0e3a, type: 3}
+    prefab: {fileID: 7784793905305996312, guid: e04b5219e8732a9439ba128f7a05468d,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 3
+    mainHand: 1
+    weight: 0
+    damageType: DamageType.Slash
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: Sword_Equip_Socket_RH, Sword_Equip_Socket_LH
+    handSlot: Sword_Hand_Socket
+    actionsTag: Moveset.ReverseDualSword
+    movesetTag: Moveset.ReverseDualSword
+    description: 
+    notes: 
+    canBeSell: 1
+    canBeUpgrade: 1
+    canBeDiscarted: 1
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 80
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers: []
+  - name: Golem
+    index: 7
+    icon: {fileID: 21300000, guid: 85d6bf1c4be118a4ca82b5ba6135a245, type: 3}
+    prefab: {fileID: 7410188353301260748, guid: 5a4dcf680cad42448837591c799ccf6d,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: DamageType.Impact
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: Unarmed_Body_Socket, Unarmed_Body_Socket
+    handSlot: Unarmed_Hand_Socket
+    actionsTag: Moveset.Unarmed
+    movesetTag: Moveset.Unarmed
+    description: 
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 60
+    scaled:
+    - startScale: 1
+      attributeTag: PrimaryAttribute.Strenght
+      operation: {fileID: 11400000, guid: e692ec5b3dad2d541884685dcb953cb5, type: 2}
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers: []
+  - name: Rock
+    index: 8
+    icon: {fileID: 21300000, guid: 85d6bf1c4be118a4ca82b5ba6135a245, type: 3}
+    prefab: {fileID: 4502998601006220102, guid: d8755b2bd61bb0a43b1605ab5b5b7848,
+      type: 3}
+    type: 6
+    combatType: 0
+    hand: 1
+    mainHand: 2
+    weight: 0
+    damageType: DamageType.HugeImpact
+    itemSlot: ItemSlot.MeleeWeapon
+    bodySlot: Unarmed_Body_Socket
+    handSlot: Rock_Socket
+    actionsTag: Moveset.Unarmed
+    movesetTag: Moveset.Unarmed
+    description: 
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats:
+    - statTag: ItemStat.Damage
+      startValue: 120
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers: []
+  - name: Stamina Maximun
+    index: 9
+    icon: {fileID: 21300000, guid: d8b726c410625fd43bff539f0ba975ec, type: 3}
+    prefab: {fileID: 0}
+    type: 7
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Consumable
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: 
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 1
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers:
+    - statType: Stats.Stamina
+      startValue: 20
+      opType: 0
+      valueType: 1
+      valueTo: 0
+      baseOn: 1
+    attributeModifiers: []
+  - name: Mountain Amulet
+    index: 10
+    icon: {fileID: 21300000, guid: d4b022e2d65bd584ba3b169e1e026111, type: 3}
+    prefab: {fileID: 0}
+    type: 10
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Amulet
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: 'Amulet with mountain symbol that represents the enormous imposing
+      challenges.
+
+
+
+      - Increases defense against enormous impacts'
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers:
+    - attributeType: Attribute.Defence.HugeImpact
+      startValue: 7
+      opType: 0
+      valueType: 0
+  - name: Rock Amulet
+    index: 11
+    icon: {fileID: 21300000, guid: a8ad11e2ec87a944ea49676a9a058aa9, type: 3}
+    prefab: {fileID: 0}
+    type: 10
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Amulet
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: 'Amulet with rock symbol representing the overcoming of obstacles.
+
+
+
+      -
+      Increases defense against physical damage'
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers:
+    - attributeType: Attribute.Defence.Physic
+      startValue: 10
+      opType: 0
+      valueType: 0
+  - name: Wind Amulet
+    index: 12
+    icon: {fileID: 21300000, guid: 5239057eda84e514792f2719f72b8a57, type: 3}
+    prefab: {fileID: 0}
+    type: 10
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Amulet
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: 'Amulet with wind symbol that represents the fluidity and agility
+      of life.
+
+
+
+      - Increases dexterity'
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers:
+    - attributeType: PrimaryAttribute.Dexterity
+      startValue: 5
+      opType: 0
+      valueType: 0
+  - name: Water Amulet
+    index: 13
+    icon: {fileID: 21300000, guid: 20e0362e4527f6447bc982ca714ca182, type: 3}
+    prefab: {fileID: 0}
+    type: 10
+    combatType: 0
+    hand: 0
+    mainHand: 0
+    weight: 0
+    damageType: 
+    itemSlot: ItemSlot.Amulet
+    bodySlot: None
+    handSlot: None
+    actionsTag: 
+    movesetTag: 
+    description: 'Amulet with water symbol representing the energy of vitality
+
+
+
+      -
+      Increases resistance against magic'
+    notes: 
+    canBeSell: 0
+    canBeUpgrade: 0
+    canBeDiscarted: 0
+    IsStackable: 0
+    stats: []
+    scaled: []
+    upgrades: []
+    requirements: []
+    statsModifiers: []
+    attributeModifiers:
+    - attributeType: Attribute.Defence.Magic
+      startValue: 10
+      opType: 0
+      valueType: 0
+  armatureSets: []
