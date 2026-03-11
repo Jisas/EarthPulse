@@ -5,7 +5,7 @@
 <a href="https://github.com/Jisas/UltimateController">![Framework](https://img.shields.io/badge/Extension-Ultimate_Controller-orange)</a>
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Earth Pulse** is a polished prototype of a rhythm-based combat RPG that uses a specialized extension of the <a href="https://github.com/Jisas/UltimateController">Ultimate Framework</a> designed for music-driven games. This project adds a layer of rhythmic synchronization (BPM Tracking) and music authoring tools that allow the environment and game mechanics to react in real time to the flow of audio.
+**Earth Pulse** is a polished prototype of a rhythm-based combat RPG that uses a specialized extension of the <a href="https://github.com/Jisas/UltimateController">Ultimate Controller</a> designed for music-driven games. This project adds a layer of rhythmic synchronization (BPM Tracking) and music authoring tools that allow the environment and game mechanics to react in real time to the flow of audio.
 
 ## 🏗️ Rhythm Synchronization Architecture
 
