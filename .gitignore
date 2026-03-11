@@ -37,10 +37,6 @@
 # Visual Studio Code cache directory
 .vscode/
 
-# Plastic cache directory
-.plastic/
-
-
 # Gradle cache directory
 .gradle/
 
