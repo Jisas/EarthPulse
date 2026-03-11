@@ -1,4 +1,0 @@
-repository "EarthPulse@jisas147@cloud"
-  path "/"
-    br "/main"
-    co "/main"
